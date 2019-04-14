@@ -8,7 +8,7 @@ namespace Test
         [Fact]
         public void Initials_ReturnValue()
         {
-            Assert.Equal("JFK", Program.Initials("John Fitzgerald kennedy"));
+            Assert.Equal("JFK", Program.Initials("John", "Fitzgerald", "kennedy"));
         }
     }
 }
